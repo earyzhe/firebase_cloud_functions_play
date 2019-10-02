@@ -1,0 +1,35 @@
+name: firebase_cloud_functions_play
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  http: ^0.12.0+2
+
+  # FIREBASE - CLOUD FUNCTION PACKAGE IS FUCKED
+  cloud_functions: ^0.4.1+1
+  firebase_core: ^0.4.0+9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/launcher_icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+
+
+
